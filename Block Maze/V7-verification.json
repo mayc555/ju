@@ -14,7 +14,8 @@
   "compiler": "isSuccess true; worker exit follows deliberate termination",
   "restore": "1287 files restored and byte-verified",
   "runtime": "Actual Laya engine in local isolated SDK fixture: English startup/drag, Chinese switch/reload and original voice path, English restoration and settings artwork/profile labels",
-  "tiktok_upload": "Not yet uploaded: developer portal failed in IAB and timed out in Chrome; no CLI session",
-  "audio": "53 user-confirmed Chinese clips replaced in English using local Qwen original-reference candidates. Chinese originals retained; subjective emotion/style approval pending",
-  "remote_assets": "Requires configured HTTPS game services and assets at tk.tuneshanworks.dev"
+  "tiktok_upload": "Uploaded successfully as portal preview version 5; preview QR captured",
+  "audio": "All 53 English replacements approved by user. Chinese originals retained for Chinese locale. Optional voice-466ff emotion alternatives not substituted.",
+  "remote_assets": "Requires configured HTTPS game services and assets at tk.tuneshanworks.dev",
+  "phone_acceptance": "Earlier V4 entered on phone; current platform version 5 regression pending"
 }
