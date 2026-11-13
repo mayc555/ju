@@ -1,0 +1,32 @@
+{
+  "game": "Block Maze",
+  "local_version": "native-20261113-v9",
+  "tiktok_platform_version": 7,
+  "platform_state": "Uploaded and preview available; QR captured",
+  "archive": "Block-Maze-native-20261113-v9.zip",
+  "sha256": "0d81c5cb398b00e946e0313727fd45dad90423c2fd10b8e493983d3164e5d97f",
+  "bytes": 20648059,
+  "files": 1288,
+  "compiler_success": true,
+  "official_static_check": {
+    "total": 114,
+    "passed": 114,
+    "warnings": 0,
+    "errors": 0
+  },
+  "restore": "1288 files restored and matched frozen hashes",
+  "runtime": "Actual Laya engine via native entry; isolated SDK fixture and explicit QA states, not device/gameplay acceptance",
+  "audio": "Approved 53 English voices unchanged",
+  "ui_review": "https://tk.tuneshanworks.dev/ui-review/",
+  "text_audit": {
+    "code_and_prefab_candidates": 775,
+    "dynamic_templates_sampled": 75,
+    "unmatched_display_candidates": 0,
+    "shader_comment_excluded": 1
+  },
+  "limitations": [
+    "Platform version 7 device regression pending",
+    "Operator/privacy confirmation deferred by user",
+    "Not submitted for review or published"
+  ]
+}
