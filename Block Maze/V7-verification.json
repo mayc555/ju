@@ -1,0 +1,20 @@
+{
+  "game": "Block Maze",
+  "version": "V7 native candidate",
+  "archive": "Block-Maze-native-20261113-v7.zip",
+  "bytes": 19427440,
+  "files": 1287,
+  "sha256": "abe44080e68a1414b67dbbfabae44530a17f2402d7de43d205064f1b3c0a1bac",
+  "engine": "LayaAir 3.4.0",
+  "official_static_check": {
+    "passed": 114,
+    "warnings": 0,
+    "errors": 0
+  },
+  "compiler": "isSuccess true; worker exit follows deliberate termination",
+  "restore": "1287 files restored and byte-verified",
+  "runtime": "Actual Laya engine in local isolated SDK fixture: English startup/drag, Chinese switch/reload and original voice path, English restoration and settings artwork/profile labels",
+  "tiktok_upload": "Not yet uploaded: developer portal failed in IAB and timed out in Chrome; no CLI session",
+  "audio": "53 user-confirmed Chinese clips replaced in English using local Qwen original-reference candidates. Chinese originals retained; subjective emotion/style approval pending",
+  "remote_assets": "Requires configured HTTPS game services and assets at tk.tuneshanworks.dev"
+}

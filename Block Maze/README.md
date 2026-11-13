@@ -1,11 +1,13 @@
-# Block Maze native TikTok test packages
+# Block Maze — native TikTok game
 
-Latest device candidate: **Block-Maze-native-20261113-v4.zip**, uploaded as TikTok portal **version 4**.
+Latest downloadable candidate: **Block-Maze-native-20261113-v7.zip**.
 
-SHA256: 5aafedca2e2b4d084c920bebf180e19a434a8b4084bb70ceffcd787dbcc8d647
+V7 combines the phone UI fixes, 53 original-reference English voice replacements, and the final settings-language interaction/artwork fixes. English is the default; settings retain Chinese switching and the original Chinese voices. Ordinary sound effects remain unchanged. English voice comparison: https://tk.tuneshanworks.dev/voice-localization/ . Subjective style and emotion approval remain pending.
 
-V3b flattens all platform subpackage names, translates logical game package names at the Laya loader boundary, and fixes the home caption callback for the actual GImage renderer. Local engine tests covered startup, dragging, win, Level 2, reload, settings/home and all 55 package entries. Official static checks passed 115/115. Real TikTok device CDN delivery, login and ads still require tester verification.
+V7 passed the official compiler and 114 static checks with no warnings/errors. All 1287 ZIP files were restored and verified against frozen inputs. The native LayaAir 3.4 game requires its configured HTTPS services and remote assets; it is not an offline package. Local actual-engine checks cover startup/drag and language switching; they do not certify phone OAuth or ads.
 
-Earlier archives are historical candidates. V1/V2 failed phone startup. The plain v3 archive lacks the later home caption fix; use v3b for the next test.
+**V7 is not uploaded to TikTok yet.** The developer portal connection fails in the in-app browser and times out in Chrome; the CLI has no active session. TikTok portal version 4 remains the latest previously uploaded preview. A V4 QR does not preview V7. Real-device OAuth, ads, entrance rewards and V7 playback acceptance remain pending.
 
-V4 restores the original indexed side-game data and 34 asset-only remote bundles on the developer HTTPS CDN, and separates them from executable native subpackages. Actual local engine tests entered Sand Spin and Block Puzzle and exercised drag operations. Real TikTok phone login, ad delivery and device acceptance remain pending.
+Archive SHA256 and scope: see the adjacent `.sha256` file and `V7-verification.json`.
+
+Historical candidates are preserved. V1/V2 failed phone startup. V3b fixes flat subpackage routing and the native GImage caption callback. V4 restores original side-game indexes and 34 asset-only remote bundles, and the user confirmed it enters on a phone. V5/V6 were unpublished local intermediates and should not be used for the next test.
